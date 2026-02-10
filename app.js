@@ -68,7 +68,7 @@ function showQuestion() {
     const btn = document.createElement("button");
 
     btn.textContent = optionText;
-    btn.classList.add("option-btn");
+    btn.classList.add("test-btn");
     btn.addEventListener("click", () =>
       checkAnswer(index, currentQuestion)
     );

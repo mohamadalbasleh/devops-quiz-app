@@ -1,0 +1,262 @@
+[
+  {
+    "id": "Q1",
+    "topic": "The DevOps Culture",
+    "question": "What is the primary goal of DevOps culture?",
+    "options": [
+      "To increase collaboration between development and operations teams",
+      "To automate all testing",
+      "To eliminate version control",
+      "To ensure high-level security compliance"
+    ],
+    "answerIndex": 0,
+    "explanation": "DevOps culture aims to enhance collaboration between development and operations teams, speeding up delivery and improving product quality."
+  },
+  {
+    "id": "Q2",
+    "topic": "The DevOps Culture",
+    "question": "Which of the following best describes the DevOps mindset?",
+    "options": [
+      "Focuses only on automating deployment",
+      "Encourages collaboration, communication, and continuous improvement",
+      "Requires all developers to handle operations tasks",
+      "Eliminates the need for version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "The DevOps mindset emphasizes collaboration, communication, and continuous improvement across the software lifecycle."
+  },
+  {
+    "id": "Q3",
+    "topic": "The DevOps Culture",
+    "question": "Which of the following is a benefit of adopting DevOps practices?",
+    "options": [
+      "Slower release cycles",
+      "Better alignment between development and operations teams",
+      "More manual testing required",
+      "Fewer deployment tools"
+    ],
+    "answerIndex": 1,
+    "explanation": "Adopting DevOps practices helps improve the collaboration between development and operations teams, leading to faster and more reliable deployments."
+  },
+  {
+    "id": "Q4",
+    "topic": "The DevOps Culture",
+    "question": "Which principle of DevOps encourages automation of the software delivery process?",
+    "options": [
+      "Infrastructure as Code",
+      "Continuous Integration",
+      "Collaboration",
+      "Feedback loops"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration encourages automation of building, testing, and deploying code to ensure faster and more reliable releases."
+  },
+  {
+    "id": "Q5",
+    "topic": "The DevOps Culture",
+    "question": "Which of the following is a key characteristic of DevOps teams?",
+    "options": [
+      "Working in silos between development and operations",
+      "Frequent communication and collaboration between teams",
+      "No automation in the software delivery pipeline",
+      "Minimal focus on feedback loops"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps teams work together with frequent communication and collaboration to ensure a smooth and efficient delivery process."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "What is the primary function of a version control system (VCS)?",
+    "options": [
+      "To manage the infrastructure",
+      "To track changes in the codebase over time",
+      "To test applications",
+      "To deploy applications"
+    ],
+    "answerIndex": 1,
+    "explanation": "A version control system allows teams to track and manage changes to the codebase over time."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control Systems",
+    "question": "Which version control system is most commonly used in DevOps?",
+    "options": [
+      "Git",
+      "Jenkins",
+      "Docker",
+      "Kubernetes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Git is the most widely used version control system, allowing teams to manage and collaborate on code changes effectively."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control Systems",
+    "question": "What does a branch in Git allow a developer to do?",
+    "options": [
+      "It creates a copy of the repository",
+      "It creates a parallel development environment without affecting the main branch",
+      "It merges two repositories",
+      "It deletes old commits"
+    ],
+    "answerIndex": 1,
+    "explanation": "A branch in Git allows a developer to work on isolated changes without affecting the main branch (e.g., `main` or `master`)."
+  },
+  {
+    "id": "Q9",
+    "topic": "Version Control Systems",
+    "question": "What is a pull request (PR) in Git?",
+    "options": [
+      "A request to pull the latest code changes from a repository",
+      "A request to merge changes from one branch into another",
+      "A command to deploy code to production",
+      "A system to track code performance"
+    ],
+    "answerIndex": 1,
+    "explanation": "A pull request is a way to propose changes to a project, allowing team members to review, discuss, and merge the changes."
+  },
+  {
+    "id": "Q10",
+    "topic": "Version Control Systems",
+    "question": "What is a common reason for a 'merge conflict' in Git?",
+    "options": [
+      "When two branches modify the same file or line of code",
+      "When a branch is deleted",
+      "When a new file is added",
+      "When there is a network issue"
+    ],
+    "answerIndex": 0,
+    "explanation": "A merge conflict happens when two branches make changes to the same line or file, and Git cannot automatically resolve the differences."
+  },
+  {
+    "id": "Q11",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration (CI)?",
+    "options": [
+      "To increase the frequency of releases",
+      "To automatically test code every time changes are made",
+      "To merge all branches into one big release branch",
+      "To monitor the production environment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The primary goal of CI is to integrate code into a shared repository regularly, followed by automated testing to ensure code quality."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Integration",
+    "question": "Which tool is commonly used for Continuous Integration in DevOps?",
+    "options": [
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenkins is one of the most widely-used CI tools that automates the process of integrating code into a shared repository and testing it."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery (CD)?",
+    "options": [
+      "Automating the entire software deployment process to production",
+      "Ensuring that every change to the codebase is automatically deployed to production",
+      "Maintaining a codebase that is always in a deployable state and can be released at any time",
+      "Creating new branches for every release"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous Delivery ensures that the application is always in a deployable state, ready to be released to production at any time."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "What is the key difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "Continuous Deployment requires manual testing",
+      "Continuous Delivery involves automated testing but manual deployment approval",
+      "Continuous Deployment requires manual approval for each release",
+      "There is no difference"
+    ],
+    "answerIndex": 1,
+    "explanation": "The key difference is that Continuous Delivery requires manual approval for deployment, while Continuous Deployment automates deployment to production."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "Which of the following is an important practice in Continuous Delivery?",
+    "options": [
+      "Writing tests after deploying code",
+      "Keeping all changes in one large release",
+      "Automating the deployment pipeline",
+      "Deploying directly to production without any tests"
+    ],
+    "answerIndex": 2,
+    "explanation": "Automating the deployment pipeline ensures that changes are consistently tested and deployed to production quickly and with minimal risk."
+  },
+  {
+    "id": "Q16",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Using code to manage and provision hardware resources",
+      "Writing scripts to automate deployment processes",
+      "Managing IT infrastructure through machine-readable definition files rather than physical hardware",
+      "Storing all infrastructure settings in a database"
+    ],
+    "answerIndex": 2,
+    "explanation": "IaC allows teams to manage and provision infrastructure using code, ensuring repeatable and consistent environments."
+  },
+  {
+    "id": "Q17",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code in DevOps?",
+    "options": [
+      "Terraform",
+      "Jenkins",
+      "Git",
+      "Docker"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular tool that allows teams to define and provision infrastructure as code, making it easier to manage cloud resources."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is the benefit of using Infrastructure as Code (IaC)?",
+    "options": [
+      "Faster hardware procurement",
+      "Manual configuration of servers",
+      "Consistent and reproducible environments",
+      "Elimination of version control"
+    ],
+    "answerIndex": 2,
+    "explanation": "IaC ensures that environments are consistent and reproducible, reducing human errors and improving reliability."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "Which of the following is NOT a key benefit of IaC?",
+    "options": [
+      "Automation of infrastructure provisioning",
+      "Manual changes to production environments",
+      "Version control of infrastructure definitions",
+      "Easy scalability and management of infrastructure"
+    ],
+    "answerIndex": 1,
+    "explanation": "Manual changes to production environments are discouraged in IaC as it contradicts the principle of automated, repeatable deployments."
+  },
+  {
+    "id": "Q20",
+    "topic": "Infrastructure as Code",
+    "question": "What is one common use case for Infrastructure as Code (IaC)?",
+    "options": [
+      "Managing code dependencies",
+      "Provisioning cloud infrastructure such as virtual machines and networks",
+      "Managing databases in production",
+      "Deploying applications"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC is commonly used for provisioning and managing cloud infrastructure, ensuring environments are reproducible and easily deployable."
+  }
+]
